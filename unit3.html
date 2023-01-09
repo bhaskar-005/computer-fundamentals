@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comruter fundamatel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="unit3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">anonymous</h1>
+        <ul>
+            <li><a href="About.html">About</a></li>
+            <li><a href="syllabus.html">Syllabus</a></li>
+            <li><a href="Chapters.html">Go back</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="forunit1">
+            <h1 class="memo1">UNIT.3</h1>
+            <h2 class="memo">memory</h2>
+            <hr>
+
+            <h2 class="topic">.memory hierarchy</h2>
+            <p class="pera">The Computer memory hierarchy looks like a pyramid structure which is used to describe the
+                differences among memory types. It separates the computer storage based on hierarchy.
+
+                <br><br> Level 0: CPU registers
+
+                <br> Level 1: Cache memory
+
+                <br>Level 2: Main memory or primary memory(RAM)
+
+                <br>Level 3: Magnetic disks or secondary memory(SSD)
+
+                <br>Level 4: Optical disks or magnetic types or tertiary Memory
+            </p>
+
+            <img src="https://qph.cf2.quoracdn.net/main-qimg-7a90a61c09f30bc2ed08c4a806cf994a" class="memohigh" alt="">
+
+            <p class="pera">
+                00 Registers <br>
+                At the top of the hierarchy are the processor registers, which are small, high-speed memory locations
+                built into the CPU. These are used to store data that the processor is currently working on.
+                <br><br>
+                01 Cache memory <br>
+                supplementary memory system that temporarily stores frequently used instructions and data for quicker
+                processing by the central processing unit (CPU) of a computer.
+                <br><br>
+                02 primary memory <br>
+                the <b>component of the computer that holds data , programs and instructions that are currently in
+                    use</b>. Primary storage (RAM) is located on the motherboard.
+                <br><br>
+                03 secondary memory <br>
+                Secondary memory is computer memory that is <b> non-volatile</b>, persistent and not immediately
+                accessible by a computer or processor. It allows users to store data and information
+                <br><br>
+                04 Tertiary storage <br>
+                Tertiary storage devices like magnetic tape are present at level 4. They are used to store removable
+                files and are the cheapest and largest in <b> size (1-20 TB)</b>.
+                <br><br><br>
+                for more information watch this > <a href="https://www.youtube.com/watch?v=zwovvWfkuSg"
+                    class="vid">video open in youtube</a>
+                <br><br><br> <br>
+
+
+                <hr>
+
+
+
+            <h2 class="topic"> <br> .types of registers</h2>
+            <p class="pera">
+
+                <b> There are several types of registers in a CPU .</b>
+                <br>
+                <br><br>
+                01- Instruction register (IR): Stores the current instruction being executed.
+                <br><br>
+                02- Program counter (PC): Stores the address of the next instruction to be executed.
+                <br><br>
+                03- Memory address register (MAR): Holds the address of a location in memory.
+                <br><br>
+                04- Memory data register (MDR): Holds the data being read from or written to memory.
+                <br><br>
+                05- Accumulator (AC): Used to store intermediate results during the execution of instructions.
+                <br><br>
+                06- General-purpose registers (GPRs): Used to store data and addresses for various purposes.
+                <br><br>
+                07- Floating-point registers (FPRs): Used to store floating-point numbers (numbers with decimal points)
+                for use in floating-point operations.
+                <br><br>
+                08- Status register (SR): Stores information about the current state of the CPU, such as whether an
+                interrupt has occurred.
+                <br><br><br>
+                for more information watch this on types of register > <a
+                    href="https://www.youtube.com/watch?v=rzVdTHLdC44&t=649s" class="vid">video open in youtube</a>
+
+                <br><br><br><br>
+            </p>
+
+            <hr>
+
+            <h2 class="topic"> <br>.Cache Memory</h2>
+            <p class="pera">
+
+                cache memory, also called <b>cache, supplementary memory </b> system that temporarily stores frequently
+                used instructions and data for quicker processing by the central processing unit (CPU) of a computer.
+                <br><br>
+                Cache memory is used to reduce the average time required to access data from the main memory.
+                <b>The cache stores the most frequently accessed data, so the CPU can quickly access the data it needs
+                    without having to wait for slower main memory or storage devices to retrieve it.</b> This can
+                significantly improve the performance of the system.
+                <br><br>
+                There are typically three levels of cache memory in a computer: L1, L2, and L3.
+                <br>
+                L1 cache is the fastest cache memory and L3 cache is the slowest cache memory while L2 cache is slower
+                than L1 cache but faster than L3 cache
+            </p>
+            <img src="https://simitech.in/wp-content/uploads/2021/06/Original-size-Basic-System-Configuration-In-CentosLinux-8-2-1024x536.png?6bfec1&6bfec1"
+                class="memohigh" alt="">
+
+            <p class="pera">Most CPUs have both L1 and L2 cache, and some also have L3 cache.<br>
+                the <b>data flows from the RAM to the L3 cache, then the L2, and finally L1</b>. When the processor is
+                looking for data to carry out an operation.
+            </p>
+            <br> <br> <br> <br>
+            <hr>
+
+
+
+
+
+
+
+            <h2 class="topic"> <br>.Primary Memory (RAM,ROM,BIOS)</h2>
+            <h3>primary memory</h3>
+            <p class="pera">Primary memory is a term used to describe a type of computer memory that is directly
+                accessible by the CPU (Central Processing Unit). Primary memory is also known as "main memory" or
+                "system memory." It is used to store data and instructions that the CPU needs to access immediately in
+                order to execute a program.
+                <br><br>
+                There are two main types of primary memory: RAM (Random Access Memory) and ROM (Read-Only Memory). RAM
+                is volatile memory,<b> which means it is wiped clean when the computer is turned off. ROM is
+                    non-volatile memory, which means it retains its data even when the power is off</b>.
+                <br><br>
+
+                RAM is used to store data and instructions that are being actively used or modified by the CPU. It is a
+                fast type of memory, but it is also expensive and has limited capacity. ROM, on the other hand, is used
+                to store instructions and data that are not expected to change, such as the BIOS (Basic Input/Output
+                System) of a computer. ROM is slower and less expensive than RAM, but it is also less flexible because
+                it is read-only.
+
+            </p>
+
+            <br><br><br>
+            <hr class="hr2">
+            <h3>RAM</h3>
+            <p class="pera">RAM (Random Access Memory) is a type of computer memory that is used to store data and
+                instructions that the CPU (Central Processing Unit) can access quickly. RAM is volatile memory, which
+                means it is wiped clean when the computer is turned off.
+                <br><br>
+                RAM is an essential part of a computer, as it is used to store the data and instructions that the CPU
+                needs to access in order to execute a program. <b> When you open a program on your computer, the
+                    instructions and data for that program are loaded from storage (such as a hard drive) into RAM</b>,
+                where the CPU can access them. This allows the CPU to access the data and instructions much more quickly
+                than if it had to retrieve them from storage, which is much slower.
+                <br><br>
+                RAM is a type of primary memory, which means it is directly accessible by the CPU. It is different from
+                secondary memory, such as a hard drive or solid state drive, which is used to store data and
+                instructions that are not being actively used by the CPU.
+                <br><br><br>
+
+            </p>
+            <hr class="hr2">
+            <h3>How data stored in RAM</h3>
+            <p class="pera">RAM stands for random access memory, and it is used to store data that is being used or
+                processed by the computer's central processing unit (CPU). When a computer is powered on, the <b>
+                    operating system and other programs are loaded from the hard drive or SSD into RAM. The data in RAM
+                    is stored in the form of binary digits (bits)</b>, with each bit being represented by either a 0 or
+                1.
+                <br>
+                <br>
+                <b> RAM is volatile memory, which means it is wiped clean when the computer is turned off. This is in
+                    contrast to non-volatile storage devices like hard drives and SSDs, which retain data even when the
+                    power is turned off</b>.
+                <br><br>
+                RAM chips are typically made up of millions of transistors, which are tiny electronic switches that can
+                store a single bit of data. The data in RAM is stored on the transistor as either a voltage or the
+                absence of a voltage, with the voltage representing a 1 and the absence of a voltage representing a 0.
+                The data in RAM is organized into memory cells, with each cell able to store a single bit.
+                <br><br><br>
+            </p>
+
+
+            <hr class="hr2">
+
+            <h3>DRAM and SRAM</h3>
+            <p class="pera">
+                SRAM faster than DRAM, but it is also more expensive to produce and requires more power to operate.
+                <br><br>
+                SRAM (static random access memory): <br><br>
+
+                01 - <b> Stores data as electrical charges in flip-flop circuits on a memory </b><br>
+                02 -Data in SRAM is not refreshed like it is in DRAM, so it does not need to be constantly powered. <br>
+                03 -Faster than DRAM but more expensive to produce and requires more power. <br>
+                04 -Used as cache memory in CPUs and as system memory in high-end computers. <br>
+                <br><br><br>
+                DRAM (dynamic random access memory): <br><br>
+
+                01 -Stores data as electrical charges in tiny capacitors on a memory chip <br>
+                02 -Capacitors in DRAM are constantly leaking their charges, so data must be refreshed periodically <br>
+                03 -Slower than SRAM but less expensive to produce and requires less power <br>
+                04 -Used as main memory in most computers <br>
+                05 -Available in different types, including SDRAM and DDR SDRAM <br>
+                <br><br>
+
+                for more information watch this on DRAM and SRAM > <a href="https://www.youtube.com/watch?v=DQyWcjQ00Rk"
+                    class="vid">video open in youtube</a>
+
+            </p>
+            <br><br>
+            <hr class="hr2">
+
+            <h3>ROM</h3>
+            <p class="pera">ROM stands for read-only memory. It refers to types of memory that are permanently or
+                semi-permanently written with data and cannot be easily rewritten or modified by a computer's user or
+                Central Processing Unit (CPU)
+                <br><br>
+                ROM stores BIOS and Firmware.
+                <br><br><br><br>
+                for more information watch this on ROM > <a href="https://www.youtube.com/shorts/Og8GkS9EuHc"
+                    class="vid">video open in youtube</a>
+                <br><br><br><br>
+                <hr>
+
+            </P>
+            <h2 class="topic">.BIOS (BISO,Firmware,types of rom)</h2>
+            <h3>BIOS</h3>
+            <p class="pera">BIOS stands for Basic Input/Output System
+
+                <br>When a computer is powered on, the BIOS performs a power-on self-test (POST) to check that all of
+                the hardware is functioning properly. It then looks for a bootable device, such as a hard drive or
+                DVD-ROM drive, and loads the operating system from that device into memory.
+                <br><br>
+                The BIOS also provides an interface that allows the user to configure basic system settings, such as the
+                date and time, the boot order of devices, and the system's power management settings. This is typically
+                done through a BIOS setup utility, which is accessed by pressing a specific key during the boot process.
+                <br><br>
+                <img src="https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2021/01/BIOS-vs-UEFI-1416318644-1611826043375.png?fit=633%2C324&ssl=1"
+                    class="imgbac" alt="">
+                <br><br><br><br>
+                In modern computers, <b>the BIOS has been replaced by the UEFI (Unified Extensible Firmware
+                    Interface)</b>, which is a more modern and feature-rich alternative to the BIOS. However, the term
+                "BIOS" is still commonly used to refer to the firmware that is responsible for booting the computer.
+                <br><br>
+                <mark> <b> kernel </b></mark><i> is the central part of an operating system that manages the system's
+                    resources and communication between hardware and software components. The kernel is responsible for
+                    controlling the system's memory, process management, and input/output operations.
+                </i><br><br> <b> EX.linux is a kernel not a operating system ubutu, kali are disto of linux</b>
+            </p>
+            <br><br><br>
+            <hr class="hr2">
+
+
+            <h3>Firmware</h3>
+            <p class="pera">Firmware is a type of software that acts as the brains of a device. It controls the device's
+                hardware and communicates with the operating system and other software that runs on the device. Firmware
+                is stored in a non-volatile memory
+
+                <br><br>
+                Firmware is installed directly onto a piece of hardware during manufacturing.
+                <br><br><br><img src="https://hi-static.z-dn.net/files/d13/dc41a9b6e51ea375415273a70ef401ed.jpg"
+                    class="imgbac" alt="">
+                <br><br><br>
+                it is typically responsible for performing a variety of tasks, such as:
+                <br><br>
+                01 -Initializing the hardware when the device is powered on <br>
+                02 -Monitoring the device's status and performance <br>
+                03 -Providing a interface for users or other software to interact with the device <br>
+                04 -Implementing security measures to protect the device and its data <br>
+                05 -Updating the device's software and settings <br>
+
+                <br><br><br><br>
+                for more information watch this on firmware by sagar > <a
+                    href="https://www.youtube.com/watch?v=7GWPR0I5Li4" class="vid">video open in youtube</a>
+                <br>
+                for more information watch this on firmware > <a href="https://www.youtube.com/watch?v=O74_xjn_z20"
+                    class="vid">video open in youtube</a>
+                <br><br><br>
+                <hr class="h2">
+            </p>
+
+            <h3>Types of ROM</h3>
+            <p class="pera">There are several types of ROM (read-only memory), including: <br><br><br>
+
+                <b> MROM:</b> his type of ROM stores data using magnetic states, and it has the potential to be faster
+                and more energy efficient than other types of ROM.<br><br>
+
+                <b> PROM (programmable ROM):</b> This type of ROM can be written to (programmed) using a special device
+                called a PROM programmer. Once a PROM has been programmed, it is read-only and cannot be modified.
+                <br><br>
+
+                <b> EPROM (erasable PROM):</b> This type of ROM can be erased and reprogrammed using UV light. <br><br>
+
+                <b> EEPROM (electrically erasable PROM): </b>This type of ROM can be erased and reprogrammed using
+                electrical signals, rather than UV light. <br><br>
+
+                <b>Flash memory:</b> This type of ROM can be erased and reprogrammed using electrical signals, and it is
+                widely used in devices such as USB drives, digital cameras, and smartphones. <br><br>
+            </p>
+            <br><br><br><br>
+            <hr>
+            <h2 class="topic">.Secondary Memory</h2>
+            <h3>Hard disks</h3>
+            <p class="pera">
+
+                A hard disk (also known as a hard drive or HDD) is a type of storage device that stores and retrieves
+                digital data using rapidly rotating disks (called platters) coated with magnetic material
+            </p>
+            <br><br><br>
+            <hr class="hr2">
+            <h3>Structure of Hard disks</h3>
+            <p class="pera">A hard drive is a physical device that stores data on a computer. It consists of a spinning
+                disk (or disks) coated with a magnetic material, and a read/write head that reads and writes data to the
+                disk. The disk is divided into a series of tracks and sectors, which are used to store data. The tracks
+                are concentric circles on the surface of the disk, and the sectors are pie-shaped wedges that are used
+                to divide each track into smaller units.
+
+                <br><br>
+                When you save a file to a hard drive, the data is stored in a specific location on the disk. The
+                location is specified by the track and sector where the data is written. The read/write head moves to
+                the correct location on the disk and writes the data to the surface of the disk. When you want to access
+                a file, the read/write head moves to the correct location on the disk and reads the data from the
+                surface of the disk.
+                <br><br><br>
+                for more information watch this on working of hard drive > <a
+                    href="https://www.youtube.com/watch?v=sveZw_GG_cs" class="vid">video open in youtube</a>
+                <br><br><br>
+                <img src="https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/images/Chapter10/10_01_DiskMechanism.jpg"
+                    class="memohigh" alt="">
+            </p>
+
+
+            <h3>How data stored in Hard disks</h3>
+            <p class="pera">Data is stored on a hard drive by writing it to the surface of the disk (or disks) in the
+                hard drive. The hard drive contains a read/write head that is used to write data to the disk and read
+                data from the disk.
+                <br><br>
+                When you save a file to a hard drive, the data is divided into small units called sectors. Each sector
+                can hold a specific amount of data, usually 512 bytes. The data is written to the surface of the disk in
+                the sectors. The sectors are organized into tracks, which are concentric circles on the surface of the
+                disk.
+                <br><br>
+                <b>The read/write head moves to the correct location on the disk (specified by the track and sector
+                    where the data is to be written) and writes the data to the surface of the disk. When you want to
+                    access a file, the read/write head moves to the correct location on the disk and reads the data from
+                    the surface of the disk</b>.
+
+            </p>
+            <hr>
+              <h3>treaks</h3>
+             <p class="pera">a track is a concentric circle on the surface of the disk. The hard drive's read/write head can access data on a specific track by moving to a position above the track and reading or writing data from the surface of the disk.
+         <br><br>
+                Tracks are used to store data on a hard drive. The hard drive's read/write head can access a specific track by moving to the correct position above the track. The tracks on a hard drive are typically organized into a series of concentric circles, with the innermost track being the first track and the outermost track being the last track.</p>
+               <br>
+           <h3>sectors</h3>
+           <p class="pera">A sector is a small unit of data storage on a hard drive's disk. It is used to store data on the hard drive and is organized into tracks on the disk. Each sector can hold a specific amount of data, usually 512 bytes. The hard drive's read/write head accesses data by moving to the correct track and sector. When you save a file to a hard drive, the data is divided into sectors and written to the surface of the disk in the appropriate track and sector. When you want to access a file, the read/write head moves to the correct track and sector and reads the data from the surface of the disk.</p>
+           <br>
+           <h3>cluster</h3>
+           <p class="pera"> <b>cluster is a group of sectors</b>  that are used to store data. Clusters are the smallest unit of storage on a hard drive and are used to store files and directories. When you save a file to a hard drive, the data is divided into clusters and written to the surface of the disk in the appropriate track and sector. The size of a cluster is determined by the size of the hard drive and the file system being used. Smaller clusters result in more efficient use of disk space, but also result in more overhead when storing small files. Larger clusters are less efficient, but have less overhead when storing small files.</p>
+           <br>
+           <h3>cylender</h3>
+           <p class="pera">cylinder is a group of tracks that are located at the same position on the disk. Cylinders are used to organize data on a hard drive and are typically used in older hard drive designs. In a modern hard drive, the read/write head can access any track on the disk, regardless of its position, so the concept of cylinders is not as important as it once was. However, the term "cylinder" is still used in some contexts to refer to a group of tracks on a hard drive.</p>
+         <br><br><br> <hr>
+          
+           <h2 class="topic">various storage devices(magnetic tape,floppy disk)</h2>
+          <h3>magnatic tape</h3>
+          <p class="pera">Magnetic tape is a type of storage medium that uses magnetism to store and retrieve data. It consists of a long, narrow strip of plastic film coated with a magnetic material, and a read/write head that reads and writes data to the tape.
+
+            Magnetic tape is used for long-term storage of data and is commonly used for data backup and archiving. It has the advantage of being able to store large amounts of data in a small space, and it is relatively inexpensive compared to other types of storage media. However, it is slower to access data stored on magnetic tape compared to other types of storage, such as hard drives or solid-state drives.</p>
+            <img src="https://assets.kldiscovery.com/cms/images/ontrack/blog/dst_image_970x300_hero-tape-services.jpg?sfvrsn=a984d62b_4" class="memohigh" alt="">
+        
+          <br><br>
+          <hr>
+          <h3>floppy disks</h3>
+          <p class="pera">A floppy disk, also known as a floppy or diskette, is a type of storage medium that was commonly used in the past to store and transfer data. It consists of a thin, flexible disk made of a magnetic material, encased in a protective plastic case. The disk is coated with a magnetic material, and a read/write head reads and writes data to the disk.
+              <br><br>
+            Floppy disks were widely used in the 1980s and 1990s as a means of storing and transferring data between computers.</p>
+           
+           <img src="https://static.javatpoint.com/computer/images/what-is-a-floppy-disk.png" class="memohigh" alt="">
+        
+          <br><hr>
+
+          <h3>optical disk</h3>
+            <p class="pera">An optical disk is a type of storage medium that uses a laser to read and write data. It consists of a flat, circular disk made of a transparent material, such as plastic or glass, and a read/write head that reads and writes data to the disk.
+
+                There are several types of optical disks, including CD (Compact Disc), DVD (Digital Versatile Disc), and Blu-ray Disc.</p>
+              <img src="https://www.shutterstock.com/image-photo/cd-260nw-106573175.jpg" class ="memohigh"alt="">
+
+              <br><br><hr>
+
+
+
+
+              <h3>SD/MMC memory cards</h3>
+              <p class="pera">SD (Secure Digital) and MMC (MultiMediaCard) are types of flash memory cards that are used to store data. They are commonly used in digital cameras, smartphones, and other portable devices to store and transfer data.
+
+               <br><br> <b> SD cards</b> are a widely used standard for portable storage, and they come in several different form factors, including full-size SD cards, miniSD cards, and microSD cards. SD cards have a capacity of up to 2 TB and a maximum transfer speed of 312 MB/s.
+                
+               <br><br> <b> MMC cards</b> are similar to SD cards, but they are not as widely used. They are available in several form factors, including full-size MMC cards, miniMMC cards, and microMMC cards. MMC cards have a capacity of up to 2 GB and a maximum transfer speed of 26 MB/s.</p>
+         
+                <br><br>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/MMC-SD-miniSD-microSD-Color-Numbers-Names.gif" class="smallpic" alt="">
+                <br><br><br><hr>
+
+                <h3>usd and pendrive</h3>
+                <p class="pera">A USB (Universal Serial Bus) is a type of interface that is used to connect devices to a computer. It is a standard way of connecting devices such as printers, keyboards, and external hard drives to a computer.
+
+                    A USB flash drive, also known as a pen drive or thumb drive, is a small, portable storage device that uses a USB interface to connect to a computer. It consists of a small circuit board with flash memory and a USB connector, and it is encased in a small, portable enclosure. USB flash drives are used to store and transfer data between computers, and they are widely used because they are convenient and easy to use.</p>
+             <br><br><br><br><hr>
+             <a href="unit4.html" class="next">></a>
+        </div>
+    </header>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+.chap{
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 0;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+ .div1{
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 26px;
+    border-radius: 12px;
+    background-color: rgba(233, 233, 233, 0.832);
+    padding: 2px;
+   
+}
+
+
+.hading{
+    
+    margin-top: 22px;
+    color: rgb(70, 63, 63);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 34px;
+
+}
+
+.go{
+    text-align:center;
+    color: rgb(90, 96, 100);
+    font-size: 19px;
+}
+.go:hover{
+    color: rgb(228, 27, 27);
+}
+.div1:hover{
+    background-color: rgb(212, 212, 212);
+}
+body{
+    background-color: rgb(226, 226, 226);
+} 
+h1{
+    font-size: 23px;
+    margin-left: 34px;
+    color: rgb(74, 73, 73);
+}
+h1:hover{
+    color: rgb(206, 31, 31);
+}
+

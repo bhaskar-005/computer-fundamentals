@@ -1,0 +1,20 @@
+.un1{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(237, 237, 237);
+    padding-bottom: 30px;
+    border-radius: 14px;
+     
+}
+.h3{
+    color: black;
+}
+.pera{
+    color: black;
+}
+.un1:hover{
+    background-color: rgb(210, 210, 210);
+}
+.h4{
+    text-align: center;
+}
